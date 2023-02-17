@@ -109,6 +109,8 @@ function ManagerAndUser() {
   };
   // Clear Filter
   const clearFilter = () => {
+    setOrder("");
+    setRole("");
     let temp = [];
     for (let i = 0; i < ProductState.length; i++) {
       let obj = {
