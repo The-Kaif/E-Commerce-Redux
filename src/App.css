@@ -1,0 +1,40 @@
+/* Add To Cart Button CSS */
+.addToCart {
+  background-color: #a4243b;
+  border: none;
+}
+
+.addToCart:hover {
+  background-color: #a50623;
+}
+/* Navbar CSS */
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+/* Search Button CSS */
+.searchBtn {
+  background-color: #ee4d2d;
+  border: none;
+  border: 2px solid black;
+}
+.searchBtn:hover {
+  background-color: black;
+  color: #ee4d2d;
+  border: 2px solid #ee4d2d;
+}
+/* Checkout Component CSS */
+.checkout {
+  background: #f9e2e6;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin-top: -0.5em;
+}
+
+td {
+  width: 200px;
+}
